@@ -834,8 +834,13 @@ li {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  max-width: 400px;
-  margin: 0 10px;
+  max-width: 33%;
+}
+@media (max-width: 768px) {
+  .footer .footer_content .footer_inf .footer_inf__block {
+    margin: 10px;
+    max-width: 400px;
+  }
 }
 .footer .footer_content .footer_inf .footer_inf__block .inf_titele {
   width: 100%;

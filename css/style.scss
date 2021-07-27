@@ -679,8 +679,12 @@ li{
 				display: flex;
 				flex-wrap: wrap;
 				// flex-direction: column;
-				max-width: 400px;
-				margin: 0 10px;
+				max-width: 33%;
+				// margin: 0 10px;
+				@media (max-width: 768px) {
+					margin: 10px;
+					max-width: 400px;
+				}
 				&.phone{}
 				.inf_titele{
 					@media (max-width: 500px) {
